@@ -27,6 +27,15 @@ Durante el proyecto se aplicaron principios de Ingeniería de Datos y Calidad de
 Incluye capas staging y core, perfilado de datos, validación de tipos y carga final limpia.
 ## ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
+# 📊 HR Employee Attrition — SQL ETL Project
+
+![SQL Server](https://img.shields.io/badge/SQL%20Server-T%20SQL-CC2927?logo=microsoft-sql-server&logoColor=white)
+![ETL](https://img.shields.io/badge/Process-ETL-blue?logo=database&logoColor=white)
+![EN&ES](https://img.shields.io/badge/EN%20%26%20ES-Bilingual-darkgreen)
+![Last Commit](https://img.shields.io/github/last-commit/Crisfunky01/HR-Employee-Attrition-SQL-ETL?color=brightgreen)
+![Repo Size](https://img.shields.io/github/repo-size/Crisfunky01/HR-Employee-Attrition-SQL-ETL?color=blue)
+
+
 ## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
 ### EN — ETL Process
@@ -189,6 +198,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
