@@ -50,24 +50,7 @@ ES — Ejemplo del flujo ETL en SQL Server, mostrando la validación y carga de 
 
 ![ETL Animation](./assets/Animation.gif)
 
-## 🗂️ PROJECT STRUCTURE / ESTRUCTURA DEL PROYECTO
-
-HR-Employee-Attrition-SQL-ETL/
-│
-├── 📁 sql_scripts/
-│   ├── 01_create_database_and_schemas.sql
-│   ├── 02_create_staging_table.sql
-│   ├── 03_load_and_validate_staging.sql
-│   ├── 04_profile_and_define_core_structure.sql
-│   └── 05_load_core_from_staging.sql
-│
-├── 📁 dataset/
-│   └── HR-Employee-Attrition.csv
-│
-├── 📄 README.md
-└── 📄 LICENSE
-
-
+<pre> ## 📁 PROJECT STRUCTURE / ESTRUCTURA DEL PROYECTO ``` HR-Employee-Attrition-SQL-ETL/ │ ├── 📁 sql_scripts/ │ ├── 01_create_database_and_schemas.sql │ ├── 02_create_staging_table.sql │ ├── 03_load_and_validate_staging.sql │ ├── 04_profile_and_define_core_structure.sql │ └── 05_load_core_from_staging.sql │ ├── 📁 dataset/ │ └── HR-Employee-Attrition.csv │ ├── 📄 README.md └── 📄 LICENSE ``` </pre>
 
 
 # 📊 HR Employee Attrition — SQL ETL Project  
@@ -168,6 +151,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
