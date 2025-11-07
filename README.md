@@ -158,9 +158,13 @@ ES
 Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para aprendizaje y reutilización.
 ## About the Author / Sobre el Autor
 
-Cristian Salinas — Industrial Engineer & Data Analyst
-🔗 LinkedIn: https://www.linkedin.com/in/ingcrissalinas/
-🌐 Portfolio: https://www.ingsalinas.com/
+## 👤 About the Author / Sobre el Autor  
 
-📂 GitHub: https://github.com/Crisfunky01
+**Cristian Salinas** — Industrial Engineer & Data Analyst  
+
+🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
+🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
+📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
+
 
