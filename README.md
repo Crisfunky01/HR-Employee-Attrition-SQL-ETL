@@ -29,21 +29,22 @@ Incluye capas staging y core, perfilado de datos, validación de tipos y carga f
 
 ## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
+## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
+
 ### EN — ETL Process
 
 **1️⃣ Extract**  
-📥 Import the raw CSV file **(`HR-Employee-Attrition.csv`)** into a staging schema (`hr_stg.employee_raw`).  
-This layer keeps the original data intact for auditing and validation.
+📥 Import the original CSV file **(`HR-Employee-Attrition.csv`)** into a staging schema (`hr_stg.employee_raw`).  
+At this stage, the dataset is loaded *as-is*, preserving its original structure for inspection and profiling.
 
-**2️⃣ Transform**  
-🧩 Validate and clean numeric, categorical, and logical fields using SQL functions such as  
-`TRY_CONVERT`, `NULLIF`, and `CASE`.  
-Detect inconsistent values, empty strings, and ensure proper data types before loading.
+**2️⃣ Transform (Profiling & Structuring)**  
+🧩 Perform data profiling to understand column types, value ranges, and categorical distributions.  
+Define appropriate SQL data types (`INT`, `TINYINT`, `BIT`, `NVARCHAR`) and prepare the mapping logic for the core table.  
+No data cleaning or modification was applied — the focus was on structure validation and type consistency.
 
 **3️⃣ Load**  
-💾 Create the final clean table **(`hr_core.employee`)** with correct data types,  
-loading the transformed data from staging.  
-This “core” layer becomes the single, structured source for analysis.
+💾 Create the clean and typed table **(`hr_core.employee`)** with well-defined columns.  
+Insert data directly from the staging table while converting types safely using functions like `TRY_CONVERT` and `NULLIF`.
 
 ---
 
@@ -51,17 +52,17 @@ This “core” layer becomes the single, structured source for analysis.
 
 **1️⃣ Extracción**  
 📥 Se importa el archivo CSV original **(`HR-Employee-Attrition.csv`)** al esquema staging (`hr_stg.employee_raw`).  
-Esta capa conserva los datos originales para fines de auditoría y validación.
+En esta etapa, el dataset se carga tal como está, conservando su estructura original para inspección y perfilado.
 
-**2️⃣ Transformación**  
-🧩 Se validan y limpian campos numéricos, categóricos y lógicos utilizando funciones SQL como  
-`TRY_CONVERT`, `NULLIF` y `CASE`.  
-Se detectan valores inconsistentes, cadenas vacías y se asegura la tipificación correcta antes de la carga.
+**2️⃣ Transformación (Perfilado y Estructuración)**  
+🧩 Se realiza un perfilado de datos para comprender los tipos de columna, rangos de valores y distribuciones categóricas.  
+Se definen los tipos de datos adecuados en SQL (`INT`, `TINYINT`, `BIT`, `NVARCHAR`) y la lógica de mapeo hacia la tabla core.  
+No se aplicó limpieza de datos — el foco estuvo en validar la estructura y consistencia de tipos.
 
 **3️⃣ Carga**  
-💾 Se crea la tabla final **(`hr_core.employee`)** con los tipos de datos adecuados,  
-cargando los datos transformados desde la capa staging.  
-Esta capa “core” actúa como la fuente única y estructurada para el análisis posterior.
+💾 Se crea la tabla limpia y tipificada **(`hr_core.employee`)** con columnas bien definidas.  
+Los datos se insertan directamente desde la tabla staging utilizando conversiones seguras con `TRY_CONVERT` y `NULLIF`.
+
 
 
 ## 🎬 ETL Process in Action / Proceso ETL en Acción  
@@ -196,6 +197,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
