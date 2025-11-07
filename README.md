@@ -27,21 +27,42 @@ Durante el proyecto se aplicaron principios de Ingeniería de Datos y Calidad de
 Incluye capas staging y core, perfilado de datos, validación de tipos y carga final limpia.
 ## ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
-EN — ETL Process
+## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
-Extract: Import the raw CSV file (HR-Employee-Attrition.csv) into a staging schema (hr_stg.employee_raw).
+### EN — ETL Process
 
-Transform: Validate and clean numeric, categorical, and logical fields using SQL functions such as TRY_CONVERT, NULLIF, and CASE.
+**1️⃣ Extract**  
+📥 Import the raw CSV file **(`HR-Employee-Attrition.csv`)** into a staging schema (`hr_stg.employee_raw`).  
+This layer keeps the original data intact for auditing and validation.
 
-Load: Create the final clean table (hr_core.employee) with appropriate data types, inserting transformed data from staging.
+**2️⃣ Transform**  
+🧩 Validate and clean numeric, categorical, and logical fields using SQL functions such as  
+`TRY_CONVERT`, `NULLIF`, and `CASE`.  
+Detect inconsistent values, empty strings, and ensure proper data types before loading.
 
-ES — Proceso ETL
+**3️⃣ Load**  
+💾 Create the final clean table **(`hr_core.employee`)** with correct data types,  
+loading the transformed data from staging.  
+This “core” layer becomes the single, structured source for analysis.
 
-Extracción: Se importa el archivo CSV original (HR-Employee-Attrition.csv) al esquema staging (hr_stg.employee_raw).
+---
 
-Transformación: Se validan y limpian campos numéricos, categóricos y lógicos utilizando funciones SQL como TRY_CONVERT, NULLIF y CASE.
+### ES — Proceso ETL
 
-Carga: Se crea la tabla final (hr_core.employee) con los tipos de datos adecuados, cargando los datos transformados desde staging.
+**1️⃣ Extracción**  
+📥 Se importa el archivo CSV original **(`HR-Employee-Attrition.csv`)** al esquema staging (`hr_stg.employee_raw`).  
+Esta capa conserva los datos originales para fines de auditoría y validación.
+
+**2️⃣ Transformación**  
+🧩 Se validan y limpian campos numéricos, categóricos y lógicos utilizando funciones SQL como  
+`TRY_CONVERT`, `NULLIF` y `CASE`.  
+Se detectan valores inconsistentes, cadenas vacías y se asegura la tipificación correcta antes de la carga.
+
+**3️⃣ Carga**  
+💾 Se crea la tabla final **(`hr_core.employee`)** con los tipos de datos adecuados,  
+cargando los datos transformados desde la capa staging.  
+Esta capa “core” actúa como la fuente única y estructurada para el análisis posterior.
+
 
 ## 🎬 ETL Process in Action / Proceso ETL en Acción  
 
@@ -175,6 +196,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
