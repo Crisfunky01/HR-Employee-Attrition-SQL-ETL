@@ -32,16 +32,16 @@ Incluye capas staging y core, perfilado de datos, validación de tipos y carga f
 ### EN — ETL Process
 
 **1️⃣ Extract**  
-📥 Import the original CSV file **(`HR-Employee-Attrition.csv`)** into a staging schema (`hr_stg.employee_raw`).  
+Import the original CSV file **(`HR-Employee-Attrition.csv`)** into a staging schema (`hr_stg.employee_raw`).  
 At this stage, the dataset is loaded *as-is*, preserving its original structure for inspection and profiling.
 
 **2️⃣ Transform (Profiling & Structuring)**  
-🧩 Perform data profiling to understand column types, value ranges, and categorical distributions.  
+Perform data profiling to understand column types, value ranges, and categorical distributions.  
 Define appropriate SQL data types (`INT`, `TINYINT`, `BIT`, `NVARCHAR`) and prepare the mapping logic for the core table.  
 No data cleaning or modification was applied — the focus was on structure validation and type consistency.
 
 **3️⃣ Load**  
-💾 Create the clean and typed table **(`hr_core.employee`)** with well-defined columns.  
+Create the clean and typed table **(`hr_core.employee`)** with well-defined columns.  
 Insert data directly from the staging table while converting types safely using functions like `TRY_CONVERT` and `NULLIF`.
 
 ---
@@ -49,16 +49,16 @@ Insert data directly from the staging table while converting types safely using 
 ### ES — Proceso ETL
 
 **1️⃣ Extracción**  
-📥 Se importa el archivo CSV original **(`HR-Employee-Attrition.csv`)** al esquema staging (`hr_stg.employee_raw`).  
+Se importa el archivo CSV original **(`HR-Employee-Attrition.csv`)** al esquema staging (`hr_stg.employee_raw`).  
 En esta etapa, el dataset se carga tal como está, conservando su estructura original para inspección y perfilado.
 
 **2️⃣ Transformación (Perfilado y Estructuración)**  
-🧩 Se realiza un perfilado de datos para comprender los tipos de columna, rangos de valores y distribuciones categóricas.  
+Se realiza un perfilado de datos para comprender los tipos de columna, rangos de valores y distribuciones categóricas.  
 Se definen los tipos de datos adecuados en SQL (`INT`, `TINYINT`, `BIT`, `NVARCHAR`) y la lógica de mapeo hacia la tabla core.  
 No se aplicó limpieza de datos — el foco estuvo en validar la estructura y consistencia de tipos.
 
 **3️⃣ Carga**  
-💾 Se crea la tabla limpia y tipificada **(`hr_core.employee`)** con columnas bien definidas.  
+Se crea la tabla limpia y tipificada **(`hr_core.employee`)** con columnas bien definidas.  
 Los datos se insertan directamente desde la tabla staging utilizando conversiones seguras con `TRY_CONVERT` y `NULLIF`.
 
 
@@ -92,20 +92,20 @@ ES — Ejemplo del flujo ETL en SQL Server, mostrando la validación y carga de 
 ## 🧰 TOOLS & TECHNOLOGIES / HERRAMIENTAS Y TECNOLOGÍAS
 
 ### EN — Tools Used
-- 🧩 **SQL Server (T-SQL)** — Main environment for database creation, profiling, and ETL logic.  
-- ⚙️ **SQL Server Management Studio (SSMS)** — Used to manage scripts, run profiling queries, and inspect results.  
-- 📦 **Import Wizard (SSMS)** — For initial CSV data load into the staging schema.  
-- 🔠 **Core SQL functions:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL`, and `INFORMATION_SCHEMA` for validation, conversion, and metadata inspection.  
-- 📊 **Power BI** *(planned next step)* — For connecting and visualizing the cleaned dataset.
+-  **SQL Server (T-SQL)** — Main environment for database creation, profiling, and ETL logic.  
+-  **SQL Server Management Studio (SSMS)** — Used to manage scripts, run profiling queries, and inspect results.  
+-  **Import Wizard (SSMS)** — For initial CSV data load into the staging schema.  
+-  **Core SQL functions:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL`, and `INFORMATION_SCHEMA` for validation, conversion, and metadata inspection.  
+-  **Power BI** *(planned next step)* — For connecting and visualizing the cleaned dataset.
 
 ---
 
 ### ES — Herramientas Utilizadas
-- 🧩 **SQL Server (T-SQL)** — Entorno principal para la creación de bases de datos, perfilado y lógica ETL.  
-- ⚙️ **SQL Server Management Studio (SSMS)** — Utilizado para ejecutar scripts, consultas de validación y revisar resultados.  
-- 📦 **Asistente de Importación de SSMS** — Usado para cargar el archivo CSV inicial en el esquema staging.  
-- 🔠 **Funciones SQL principales:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL` e `INFORMATION_SCHEMA` para validación, conversión y revisión de metadatos.  
-- 📊 **Power BI** *(planificado como siguiente etapa)* — Para conectar y visualizar el dataset limpio.
+-  **SQL Server (T-SQL)** — Entorno principal para la creación de bases de datos, perfilado y lógica ETL.  
+-  **SQL Server Management Studio (SSMS)** — Utilizado para ejecutar scripts, consultas de validación y revisar resultados.  
+-  **Asistente de Importación de SSMS** — Usado para cargar el archivo CSV inicial en el esquema staging.  
+-  **Funciones SQL principales:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL` e `INFORMATION_SCHEMA` para validación, conversión y revisión de metadatos.  
+-  **Power BI** *(planificado como siguiente etapa)* — Para conectar y visualizar el dataset limpio.
 
 
 
@@ -156,18 +156,18 @@ EN — Core SQL Techniques
 ## 💡 NEXT STEPS / PRÓXIMOS PASOS
 
 ### EN — Next Steps
-- 📊 **Create a Power BI dashboard** connected to the cleaned SQL dataset to visualize key HR indicators such as Attrition Rate and Satisfaction Levels.  
-- ⚙️ **Add more data validation layers**, including detection of outliers and null-pattern analysis directly in SQL.  
-- 🧱 **Expand the ETL process** to include automated refresh or incremental loads (using SSMS jobs or Python scripts).  
-- 📁 **Document data lineage and assumptions** to make the project reproducible for analytical use.
+-  **Create a Power BI dashboard** connected to the cleaned SQL dataset to visualize key HR indicators such as Attrition Rate and Satisfaction Levels.  
+-  **Add more data validation layers**, including detection of outliers and null-pattern analysis directly in SQL.  
+-  **Expand the ETL process** to include automated refresh or incremental loads (using SSMS jobs or Python scripts).  
+-  **Document data lineage and assumptions** to make the project reproducible for analytical use.
 
 ---
 
 ### ES — Próximos Pasos
-- 📊 **Crear un dashboard en Power BI** conectado al dataset limpio en SQL para visualizar indicadores clave como Tasa de Rotación y Niveles de Satisfacción.  
-- ⚙️ **Agregar más validaciones de datos**, incluyendo detección de valores atípicos y análisis de patrones nulos directamente en SQL.  
-- 🧱 **Ampliar el proceso ETL** para incluir actualizaciones automáticas o cargas incrementales (usando tareas en SSMS o scripts en Python).  
-- 📁 **Documentar el linaje de datos y supuestos** para que el proyecto sea reproducible y útil en análisis futuros.
+-  **Crear un dashboard en Power BI** conectado al dataset limpio en SQL para visualizar indicadores clave como Tasa de Rotación y Niveles de Satisfacción.  
+-  **Agregar más validaciones de datos**, incluyendo detección de valores atípicos y análisis de patrones nulos directamente en SQL.  
+-  **Ampliar el proceso ETL** para incluir actualizaciones automáticas o cargas incrementales (usando tareas en SSMS o scripts en Python).  
+-  **Documentar el linaje de datos y supuestos** para que el proyecto sea reproducible y útil en análisis futuros.
 
 
 
@@ -189,6 +189,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
