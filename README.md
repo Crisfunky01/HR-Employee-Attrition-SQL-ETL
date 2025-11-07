@@ -160,4 +160,5 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 Cristian Salinas — Industrial Engineer & Data Analyst
 🔗 LinkedIn: https://www.linkedin.com/in/ingcrissalinas/
 🌐 Portfolio: https://www.ingsalinas.com/
+
 📂 GitHub: https://github.com/Crisfunky01
