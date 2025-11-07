@@ -11,7 +11,7 @@ Objetivo :
   - Crear la base de datos 'portfolio'
   - Crear los esquemas 'hr_stg' (staging) y 'hr_core' (core)
 Notas    :
-  - Script idempotente (se puede ejecutar múltiples veces)
+  - Script idempotente (se puede ejecutar mÃºltiples veces)
 ----------------------------------------------------------- */
 
 
