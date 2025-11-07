@@ -7,6 +7,6 @@ Objetivo :
   - Insertar datos en hr_core.employee transformando desde hr_stg.employee_raw
   - Convertir tipos (TRY_CONVERT) y mapear Yes/No a BIT (CASE)
 Notas    :
-  - Empezar con 5 columnas (flujo mínimo) y luego ampliar por tandas
-  - Mantener NULLIF('','') para tratar vacíos como NULL
+  - Empezar con 5 columnas (flujo mÃ­nimo) y luego ampliar por tandas
+  - Mantener NULLIF('','') para tratar vacÃ­os como NULL
 ----------------------------------------------------------- */
