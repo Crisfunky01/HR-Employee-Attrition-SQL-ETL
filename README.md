@@ -1,3 +1,5 @@
+# 📊 HR Employee Attrition — SQL ETL Project
+
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-T%20SQL-CC2927?logo=microsoft-sql-server&logoColor=white)
 ![ETL](https://img.shields.io/badge/Process-ETL-blue?logo=database&logoColor=white)
 ![EN&ES](https://img.shields.io/badge/EN%20%26%20ES-Bilingual-darkgreen)
