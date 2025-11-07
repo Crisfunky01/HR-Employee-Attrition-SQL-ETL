@@ -139,21 +139,24 @@ EN — Core SQL Techniques
 
 ## 💡 NEXT STEPS / PRÓXIMOS PASOS
 
-EN
+## 💡 NEXT STEPS / PRÓXIMOS PASOS
 
-Develop a Power BI dashboard using the cleaned dataset.
+### EN — Next Steps
+- 📊 **Create a Power BI dashboard** connected to the cleaned SQL dataset to visualize key HR indicators such as Attrition Rate and Satisfaction Levels.  
+- ⚙️ **Add more data validation layers**, including detection of outliers and null-pattern analysis directly in SQL.  
+- 🧱 **Expand the ETL process** to include automated refresh or incremental loads (using SSMS jobs or Python scripts).  
+- 📁 **Document data lineage and assumptions** to make the project reproducible for analytical use.
 
-Add data quality KPIs and extended ETL automation with Python or SSIS.
+---
 
-Expand the structure to other HR datasets.
+### ES — Próximos Pasos
+- 📊 **Crear un dashboard en Power BI** conectado al dataset limpio en SQL para visualizar indicadores clave como Tasa de Rotación y Niveles de Satisfacción.  
+- ⚙️ **Agregar más validaciones de datos**, incluyendo detección de valores atípicos y análisis de patrones nulos directamente en SQL.  
+- 🧱 **Ampliar el proceso ETL** para incluir actualizaciones automáticas o cargas incrementales (usando tareas en SSMS o scripts en Python).  
+- 📁 **Documentar el linaje de datos y supuestos** para que el proyecto sea reproducible y útil en análisis futuros.
 
-ES
 
-Desarrollar un dashboard en Power BI con el dataset limpio.
 
-Agregar KPIs de calidad de datos y automatización ETL con Python o SSIS.
-
-Extender la estructura a otros datasets de RR.HH.
 ## LICENSE / LICENCIA
 
 EN
@@ -172,6 +175,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
