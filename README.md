@@ -29,8 +29,6 @@ Incluye capas staging y core, perfilado de datos, validación de tipos y carga f
 
 ## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
 
-## ⚙️ ETL PROCESS OVERVIEW / FLUJO DEL PROCESO ETL
-
 ### EN — ETL Process
 
 **1️⃣ Extract**  
@@ -197,6 +195,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
