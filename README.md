@@ -1,4 +1,5 @@
-📊 HR Employee Attrition — SQL ETL Project
+# 📊 HR Employee Attrition — SQL ETL Project
+
 
 EN:
 The HR Employee Attrition dataset contains information about employees such as satisfaction, performance, and demographics.
@@ -162,3 +163,4 @@ Cristian Salinas — Industrial Engineer & Data Analyst
 🌐 Portfolio: https://www.ingsalinas.com/
 
 📂 GitHub: https://github.com/Crisfunky01
+
