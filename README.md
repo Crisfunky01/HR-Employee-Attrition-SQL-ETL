@@ -106,28 +106,37 @@ Estos pasos garantizan datos limpios y estandarizados, libres de errores de text
 
 EN — Core SQL Techniques
 
-Command	Purpose
-CREATE SCHEMA	Define logical layers (staging, core) to organize data pipelines.
-TRY_CONVERT()	Safely converts text to numeric types; returns NULL for invalid data.
-NULLIF()	Replaces empty strings ('') with NULL to avoid conversion errors.
-CASE WHEN	Used for logical mapping (e.g., Yes/No → 1/0).
-INFORMATION_SCHEMA.COLUMNS	Metadata check for table structures.
-UNION ALL	Combines results from multiple profiling queries.
-COUNT(DISTINCT ...)	Evaluates cardinality of categorical columns.
-LTRIM(RTRIM())	Cleans text fields by removing leading and trailing spaces.
+## 🧩 Key SQL Commands Used / Comandos SQL Clave Utilizados
+
+### EN — Core SQL Techniques
+
+| Command | Purpose |
+|----------|----------|
+| `CREATE SCHEMA` | Defines logical layers (staging, core) to organize data pipelines. |
+| `TRY_CONVERT()` | Safely converts text to numeric types; returns `NULL` for invalid data. |
+| `NULLIF()` | Replaces empty strings (`''`) with `NULL` to avoid conversion errors. |
+| `CASE WHEN` | Used for logical mapping (e.g., `Yes/No → 1/0`). |
+| `INFORMATION_SCHEMA.COLUMNS` | Metadata check for table structures. |
+| `UNION ALL` | Combines results from multiple profiling queries. |
+| `COUNT(DISTINCT ...)` | Evaluates cardinality of categorical columns. |
+| `LTRIM(RTRIM())` | Cleans text fields by removing leading and trailing spaces. |
 
 
-ES — Técnicas SQL Principales
+### ES — Técnicas SQL Principales
 
-Comando	Propósito
-CREATE SCHEMA	Define capas lógicas (staging, core) para organizar los flujos de datos.
-TRY_CONVERT()	Convierte texto a valores numéricos de forma segura; devuelve NULL si no puede hacerlo.
-NULLIF()	Reemplaza cadenas vacías ('') por NULL para evitar errores de conversión.
-CASE WHEN	Utilizado para mapear valores lógicos (por ejemplo, Yes/No → 1/0).
-INFORMATION_SCHEMA.COLUMNS	Permite revisar la estructura de las tablas creadas.
-UNION ALL	Une resultados de varias consultas de perfilado.
-COUNT(DISTINCT ...)	Calcula cuántos valores únicos tiene una columna categórica.
-LTRIM(RTRIM())	Limpia espacios en blanco antes y después del texto
+| Comando | Propósito |
+|----------|------------|
+| `CREATE SCHEMA` | Define capas lógicas (staging, core) para organizar los flujos de datos. |
+| `TRY_CONVERT()` | Convierte texto a valores numéricos de forma segura; devuelve `NULL` si no puede hacerlo. |
+| `NULLIF()` | Reemplaza cadenas vacías (`''`) por `NULL` para evitar errores de conversión. |
+| `CASE WHEN` | Se usa para mapear valores lógicos (por ejemplo, `Yes/No → 1/0`). |
+| `INFORMATION_SCHEMA.COLUMNS` | Permite revisar la estructura de las tablas creadas. |
+| `UNION ALL` | Une resultados de varias consultas de perfilado. |
+| `COUNT(DISTINCT ...)` | Calcula cuántos valores únicos tiene una columna categórica. |
+| `LTRIM(RTRIM())` | Limpia espacios en blanco antes y después del texto. |
+
+
+
 ## 💡 NEXT STEPS / PRÓXIMOS PASOS
 
 EN
@@ -163,6 +172,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
