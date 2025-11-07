@@ -89,28 +89,26 @@ ES — Ejemplo del flujo ETL en SQL Server, mostrando la validación y carga de 
 
 ![HR Employee Attrition Dataset](./assets/HR-Employee-Attrition.png)
 
+## 🧰 TOOLS & TECHNOLOGIES / HERRAMIENTAS Y TECNOLOGÍAS
 
-## TOOLS & TECHNOLOGIES / HERRAMIENTAS Y TECNOLOGÍAS
+### EN — Tools Used
+- 🧩 **SQL Server (T-SQL)** — Main environment for database creation, profiling, and ETL logic.  
+- ⚙️ **SQL Server Management Studio (SSMS)** — Used to manage scripts, run profiling queries, and inspect results.  
+- 📦 **Import Wizard (SSMS)** — For initial CSV data load into the staging schema.  
+- 🔠 **Core SQL functions:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL`, and `INFORMATION_SCHEMA` for validation, conversion, and metadata inspection.  
+- 📊 **Power BI** *(planned next step)* — For connecting and visualizing the cleaned dataset.
 
-EN — Tools Used
+---
 
-SQL Server (T-SQL)
+### ES — Herramientas Utilizadas
+- 🧩 **SQL Server (T-SQL)** — Entorno principal para la creación de bases de datos, perfilado y lógica ETL.  
+- ⚙️ **SQL Server Management Studio (SSMS)** — Utilizado para ejecutar scripts, consultas de validación y revisar resultados.  
+- 📦 **Asistente de Importación de SSMS** — Usado para cargar el archivo CSV inicial en el esquema staging.  
+- 🔠 **Funciones SQL principales:** `TRY_CONVERT`, `NULLIF`, `CASE`, `UNION ALL` e `INFORMATION_SCHEMA` para validación, conversión y revisión de metadatos.  
+- 📊 **Power BI** *(planificado como siguiente etapa)* — Para conectar y visualizar el dataset limpio.
 
-SSMS Import Wizard
 
-TRY_CONVERT, NULLIF, CASE, UNION ALL, INFORMATION_SCHEMA
 
-Power BI (for future visualization)
-
-ES — Herramientas Utilizadas
-
-SQL Server (T-SQL)
-
-Asistente de Importación de SSMS
-
-TRY_CONVERT, NULLIF, CASE, UNION ALL, INFORMATION_SCHEMA
-
-Power BI (para visualización futura)
 ## DATA VALIDATION / VALIDACIÓN DE DATOS
 
 EN
@@ -155,10 +153,6 @@ EN — Core SQL Techniques
 | `COUNT(DISTINCT ...)` | Calcula cuántos valores únicos tiene una columna categórica. |
 | `LTRIM(RTRIM())` | Limpia espacios en blanco antes y después del texto. |
 
-
-
-## 💡 NEXT STEPS / PRÓXIMOS PASOS
-
 ## 💡 NEXT STEPS / PRÓXIMOS PASOS
 
 ### EN — Next Steps
@@ -195,6 +189,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
