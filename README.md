@@ -50,8 +50,9 @@ ES — Ejemplo del flujo ETL en SQL Server, mostrando la validación y carga de 
 
 ![ETL Animation](./assets/Animation.gif)
 
-<pre> ## 📁 PROJECT STRUCTURE / ESTRUCTURA DEL PROYECTO
-  ``` HR-Employee-Attrition-SQL-ETL/ │
+ ## 📁 PROJECT STRUCTURE / ESTRUCTURA DEL PROYECTO
+ 
+ <pre> ``` HR-Employee-Attrition-SQL-ETL/ │
       ├── 📁 sql_scripts/ │ 
         ├── 01_create_database_and_schemas.sql │
         ├── 02_create_staging_table.sql │ 
@@ -162,6 +163,7 @@ Este proyecto se distribuye bajo la Licencia MIT, permitiendo su uso libre para 
 🔗 **LinkedIn:** [https://www.linkedin.com/in/ingcrissalinas/](https://www.linkedin.com/in/ingcrissalinas/)  
 🌐 **Portfolio:** [https://www.ingsalinas.com/](https://www.ingsalinas.com/)  
 📂 **GitHub:** [https://github.com/Crisfunky01](https://github.com/Crisfunky01)
+
 
 
 
