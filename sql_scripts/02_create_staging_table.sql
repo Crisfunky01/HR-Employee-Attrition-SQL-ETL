@@ -7,8 +7,8 @@ Objetivo :
   - Definir tabla staging como copia cruda del CSV (todo texto)
   - Preparar estructura para cargas repetibles sin errores de tipo
 Notas    :
-  - Todas las columnas NVARCHAR para admitir datos sucios y vacíos
-  - La tabla puede recrearse en cada ejecución (staging es desechable)
+  - Todas las columnas NVARCHAR para admitir datos sucios y vacÃ­os
+  - La tabla puede recrearse en cada ejecuciÃ³n (staging es desechable)
 ----------------------------------------------------------- */
 
 
